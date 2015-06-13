@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EmptyFSharpSharepointApp", "EmptyFSharpSharepointApp\EmptyFSharpSharepointApp.fsproj", "{73FFB5FB-E4DE-4691-928E-24DF43FC883B}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Library", "Library\Library.fsproj", "{B926DCA8-AE6B-487C-935E-53911A7E4DFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{73FFB5FB-E4DE-4691-928E-24DF43FC883B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73FFB5FB-E4DE-4691-928E-24DF43FC883B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73FFB5FB-E4DE-4691-928E-24DF43FC883B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B926DCA8-AE6B-487C-935E-53911A7E4DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B926DCA8-AE6B-487C-935E-53911A7E4DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B926DCA8-AE6B-487C-935E-53911A7E4DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B926DCA8-AE6B-487C-935E-53911A7E4DFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
