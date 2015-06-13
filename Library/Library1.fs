@@ -41,3 +41,10 @@ type TimedTweetCount =
         Time: string
         TweetCount: int
     }
+
+type Message =
+    | TweetReceived of Tweet: Tweet
+    | WordCountGenerated of WordCount: WordCount seq
+    | UserTweetCountGenerated of TweetCount : UserTweetCount seq
+    | TweetTimeCountGenerated of TweetCount: TimedTweetCount seq
+    | MostMentionsGenerated of TweetCount: UserTweetCount seq
