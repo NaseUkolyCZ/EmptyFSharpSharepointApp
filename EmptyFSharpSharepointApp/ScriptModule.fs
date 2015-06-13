@@ -23,4 +23,5 @@ let DrawTweet (input: obj[]) =
 let Main() =
     let hub = Globals.Dollar.connection.hub.createHubProxy("tweetHub")
     hub.on("tweetReceived", fun x -> DrawTweet x).Ignore
-    Globals.Dollar.connection.hub.start()._doneOverload2(fun _ -> hub.server.startAgents())
+    Globals.Dollar.connection.hub.start()._doneOverload2(fun _ -> hub.server.startAgents()).Ignore
+    Globals.window.alert("Hello world!")
